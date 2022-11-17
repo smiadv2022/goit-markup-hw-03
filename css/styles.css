@@ -70,16 +70,13 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--color-primary);
 }
-.header-list:nth-child(3){
-  color: red;
-  padding-right: 0;
-}
+
 .header-list-item:focus, .header-list-item:hover{
     color: var(--color-accent);
 }
-.header-list-item:nth-child(3){
+.header-li:nth-child(3){
   color: red;
-    padding-right: 0;
+   margin-right: 0;
 }
 /* .nav{
   display: flex;
