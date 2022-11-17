@@ -318,7 +318,7 @@ background-color:var(--color-accent);
 
 .portfolio-btn{
 display:flex;
-justify-items: center;
+justify-content: center;
 margin-bottom: 34px;
 }
 .portfolio-block{
