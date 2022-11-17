@@ -59,7 +59,10 @@ margin-right: 93px;
 outline:2px solid red;
 
 }
-
+.nav{
+  display: flex;
+ align-items: center;
+}
 .header-list-item{
 font-weight: 500;
 padding-right: 50px;
@@ -78,10 +81,10 @@ color: var(--color-primary);
   color: red;
     padding-right: 0;
 }
-.nav{
+/* .nav{
   display: flex;
  align-items: center;
-}
+} */
 .header-contact{
   display:flex;
 
