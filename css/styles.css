@@ -1,0 +1,229 @@
+
+:root{
+   --color-accent: #2196F3;
+   --color-primary:#212121;
+   --color-secondary:#757575;
+   --background-secondary:#2F303A;
+   --color-secondary-accent:#FFFFFF;
+}
+body{
+   font-family: 'Roboto', sans-serif;
+   font-size: 14px;
+   letter-spacing: 0.03em;
+}
+p, h1, h2, h3{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul, li, span {
+  margin-left: 0;
+margin-right: 0;
+padding-left: 0;
+padding-right: 0;
+
+}
+.conteiner{
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 2px solid #188CE8;
+}
+.link{
+    text-decoration: none;
+}
+.list{
+    list-style: none;
+    margin-left: 0;
+}
+.header{
+  display:flex;
+  min-height: 80px;
+}
+.header-logo{  
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+color: #000000;
+margin-right: 93px;
+
+}
+.span-logo{
+    color: #2196F3;
+}
+
+.header-list{
+  display: flex;
+outline:2px solid red;
+
+}
+
+.header-list-item{
+font-weight: 500;
+padding-right: 50px;
+line-height: 1.14; 
+letter-spacing: 0.02em;
+color: var(--color-primary);
+}
+.header-list:nth-child(3){
+  color: red;
+  padding-right: 0;
+}
+.header-list-item:focus, .header-list-item:hover{
+    color: var(--color-accent);
+}
+.header-list-item:nth-child(3){
+  color: red;
+    padding-right: 0;
+}
+.nav{
+  display: flex;
+ align-items: center;
+}
+.header-contact{
+  display:flex;
+
+}
+.header-contact-list {
+ font-weight: 500;
+line-height: 1.14;
+letter-spacing: 0.02em;
+
+color: var(--color-secondary);
+}
+.header-contac-list:focus, .header-contact-list:hover{
+   color: var(--color-accent); 
+}
+.active-link{
+  color: var(--color-accent);
+}
+.hero{
+  height: 600px;
+  font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+  color: var(--color-secondary-accent) ;
+  background-color:var(--background-secondary);
+  margin-bottom: 94px;
+}
+.hero-back{
+  padding-top: 200px;
+  padding-bottom: 200px;
+
+}
+.hero-title{
+display: block; 
+padding-top: 0px;
+
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+margin-bottom: 30px;
+}
+.hero-btn{
+    font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.06em;
+color: var(--color-secondary-accent);
+   background: #188CE8;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px; 
+width: 216px;
+height: 50px;
+
+
+}
+.feature-title-hidden{
+  opacity: 0;  
+  font-size: 0
+}
+.feature-title-item{
+    font-weight: 700;
+line-height: 1.14;
+text-transform: uppercase;
+
+color: var(--color-primary)
+}
+.feature-text-item{
+line-height: 1.71px;
+color: var(--color-secondary)
+}
+.job-title{
+   font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+color: var(--color-primary)
+}
+.tean{
+    background-color:#F5F4FA ;
+}
+.team-title{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+color: var(--color-primary);
+}
+.team-fio{
+  font-weight: 500;
+font-size: 16px;
+line-height: 1.88;
+color: var(--color-primary);
+}
+.team-text{
+font-size: 16px;
+line-height: 1.88;
+color: var(--color-secondary);
+}
+.footer{
+        background-color:var(--background-secondary);
+}
+.footer-logo{
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+color: var(--color-secondary-accent);
+}
+.footer-adress{
+font-style: normal; 
+line-height: 1.71;
+color: var(--color-secondary-accent);  
+}
+.footer-contact{
+line-height: 1.75;
+color: rgba(255, 255, 255, 0.6); 
+}
+.menu-btn{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+color: var(--color-primary);
+background-color: #F5F4FA;
+border-radius: 4px;
+border-color:#F5F4FA;
+}
+.menu-btn:hover,.menu-btn:focus {
+color: var(--color-secondary-accent);
+background-color:var(--color-accent);
+}
+.portfolio-item-filter{
+font-size: 16px;
+line-height: 1.88x;
+color: var(--color-secondary);
+}
+.portfolio-item-project{
+ font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: var(--color-primary); 
+}
