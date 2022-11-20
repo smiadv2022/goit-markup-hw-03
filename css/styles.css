@@ -376,11 +376,11 @@ background-color:var(--color-accent);
   margin-right: 0;
 }
 .portfolio-block-li{
-  flex-basis:calc((100% - 2 * 30px ) / 3 );
+  flex-basis:calc((100% - 2 * 30px -2 * 3px ) / 3 );
 margin-right: 30px;
 margin-bottom: 30px;
 background: #FFFFFF;
-border-bottom: 1px solid #EEEEEE;
+border: 1px solid #EEEEEE;
 /* display:block;
 border-bottom: 1px solid red; */
 }
