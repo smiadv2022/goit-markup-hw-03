@@ -391,6 +391,8 @@ margin-bottom: 0;
 .portfolio-item-filter{
 font-size: 16px;
 line-height: 1.88;
+margin-bottom: 20px;
+margin-left: 24px;
 color: var(--color-secondary);
 }
 .portfolio-item-project{
@@ -399,5 +401,8 @@ font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
 color: var(--color-primary); 
+margin-bottom: 4px;
+margin-top: 20px;
+margin-left: 24px;
 }
 
