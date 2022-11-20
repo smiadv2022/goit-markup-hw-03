@@ -158,7 +158,7 @@ color: var(--color-secondary-accent);
    background: #188CE8;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px; border-color: transparent; 
-width: 200px;transpo
+width: 200px;
 height: 50px;
 margin-left: auto;
 margin-right: auto;
@@ -315,21 +315,55 @@ color: var(--color-secondary-accent);
 line-height: 1.75;
 color: rgba(255, 255, 255, 0.6); 
 }
+
+.portfolio{
+  margin-top: 94px;
+}
+.filter{
+  display: flex;
+
+  width: 596px;
+  height: 54px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 34px;
+  padding: 0;
+
+;
+}
+.portfolio-btn{
+display:flex;
+margin-left: auto;
+margin-right: auto;
+justify-content: center;
+padding: 0;
+}
 .menu-btn{
 font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
 color: var(--color-primary);
 background-color: #F5F4FA;
 border-radius: 4px;
-border-color:#F5F4FA;
+border-color:transparent;
+padding: 6px 22px;
 }
+.menu-btn:last-child{
+  margin-right: 0;
+}
+
 .menu-btn:hover,.menu-btn:focus {
 color: var(--color-secondary-accent);
 background-color:var(--color-accent);
 }
-.portfolio{
-  margin-top: 94px;
+
+
+.portfolio-block{
+  display:flex;
+  flex-wrap: wrap;
+  padding-bottom: 94px;
 }
 .portfolio-menu-li{
   margin-right: 8px;
@@ -337,18 +371,6 @@ background-color:var(--color-accent);
 .portfolio-menu-li:last-child{
   margin-right: 0;
 }
-
-.portfolio-btn{
-display:flex;
-justify-content: center;
-margin-bottom: 34px;
-}
-.portfolio-block{
-  display:flex;
-  flex-wrap: wrap;
-  padding-bottom: 94px;
-}
-
 .portfolio-block-li{
   flex-basis:calc((100% - 2 * 30px ) / 3 );
 margin-right: 30px;
